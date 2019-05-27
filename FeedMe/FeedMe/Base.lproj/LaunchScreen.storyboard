@@ -17,7 +17,18 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundMonsterIpad" translatesAutoresizingMaskIntoConstraints="NO" id="3xH-W2-NcL">
+                                <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3xH-W2-NcL" secondAttribute="bottom" id="4bo-1C-jCR"/>
+                            <constraint firstItem="3xH-W2-NcL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="B22-US-NrZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3xH-W2-NcL" secondAttribute="trailing" id="DOg-BR-TaP"/>
+                            <constraint firstItem="3xH-W2-NcL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="sz8-3j-9Xg"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -26,4 +37,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="backgroundMonsterIpad" width="466.5" height="350.5"/>
+    </resources>
 </document>
